@@ -1,0 +1,15 @@
+{
+  "name": "solid-base",
+  "version": "1.0.0",
+  "description": "solid accessable components",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "aria",
+    "components",
+    "primitives"
+  ],
+  "author": "Moamen Hredeen",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.0"
+}

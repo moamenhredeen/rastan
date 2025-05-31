@@ -1,0 +1,17 @@
+# node
+node_modules
+build
+dist
+
+# VSC Settings
+.vscode/
+
+# JetBrains
+.idea/
+
+# zed
+.zed/
+
+# MacOs
+.DS_Store
+Thumbs.db
