@@ -1,0 +1,64 @@
+{
+  "name": "@rastan/primitives",
+  "version": "0.1.0",
+  "description": "low level unstyled solid primitives",
+  "license": "MIT",
+  "author": "Moamen Hredeen",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moamenhredeen/rastan.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "private": false,
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "solid": {
+      "development": "./dist/dev.jsx",
+      "import": "./dist/index.jsx"
+    },
+    "development": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/dev.js"
+      }
+    },
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite serve dev"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.6.0"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0",
+    "solid-js": "^1.8.17",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-solid": "^2.10.2",
+    "vitest": "^1.6.0"
+  },
+  "keywords": [
+    "solid",
+    "solidjs",
+    "aria",
+    "components",
+    "primitives",
+    "rastan"
+  ],
+  "packageManager": "pnpm@9.1.1",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9.0.0"
+  }
+}
