@@ -1,15 +1,16 @@
 {
-  "name": "solid-base",
+  "name": "rastan",
   "version": "1.0.0",
-  "description": "solid accessable components",
-  "keywords": [
-    "solid",
-    "solidjs",
-    "aria",
-    "components",
-    "primitives"
-  ],
-  "author": "Moamen Hredeen",
-  "license": "MIT",
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "esbuild": "^0.21.3",
+    "esbuild-plugin-solid": "^0.6.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "prettier": "3.0.0"
+  }
 }
